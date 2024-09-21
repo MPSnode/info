@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem WARNING!!: Orang Dicari - DAVID PARLINDUNGAN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --background-color: #0a0a0a;
+            --card-background: #1a1a1a;
+            --text-color: #f0f0f0;
+            --accent-color: #ff4136;
+            --secondary-color: #3498db;
+            --warning-color: #ffd700;
+            --photo-background: #2c3e50;
+            --biodata-background: #34495e;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .warning-header {
+            background-color: var(--accent-color);
+            color: #ffffff;
+            text-align: center;
+            padding: 3rem 0;
+        }
+
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-size: 1.3rem;
+            font-weight: 300;
+        }
+
+        .card {
+            background-color: var(--card-background);
+            border-radius: 10px;
+            padding: 2rem;
+            margin-top: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .photo-container {
+            flex: 1;
+            min-width: 250px;
+            background-color: var(--photo-background);
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .photo {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--accent-color);
+        }
+
+        .info-container {
+            flex: 2;
+            min-width: 300px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            background-color: var(--biodata-background);
+            padding: 1rem;
+            border-radius: 10px;
+        }
+
+        .info-item {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        .info-item h3 {
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .info-item h3 i {
+            margin-right: 10px;
+            color: var(--accent-color);
+        }
+
+        .warning-text {
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            color: var(--warning-color);
+            padding: 1rem;
+            border: 2px solid var(--warning-color);
+            border-radius: 8px;
+            background-color: rgba(255, 215, 0, 0.1);
+        }
+
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .action-button {
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .report-button {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        .more-info-button {
+            background-color: var(--secondary-color);
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                flex-direction: column;
+            }
+
+            .photo-container, .info-container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="warning-header">
+        <div class="container">
+            <h1><i class="fas fa-exclamation-triangle"></i> WARNING!!</h1>
+            <p class="subtitle">Individu Berbahaya Dicari oleh Pihak Berwajib</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <div class="photo-container">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQoZ1fUdjm_jbuJFlT5BxK1I71O7DSKIBYGp5wzeMeJj1SVxQz7CozGLZ8j6XQ1jhaPX_EPhOLMCb_BHubw7jTeTkMsdNLdJ7Bgb74aIC3zbQ5-M5k9TPdZLqnvQWRoUPNx3qSZRPkz6DUhKcHZZyvMM2w2PLUR8FrKa9FtnzI0F3Rsvm-tZxn5XRMq3hU/s320/messageImage_1726731556751.jpg" alt="Foto DAVID PARLINDUNGAN" class="photo">
+            </div>
+            <div class="info-container">
+                <div class="info-item">
+                    <h3><i class="fas fa-user"></i> Nama</h3>
+                    <p>DAVID PARLINDUNGAN</p>
+                </div>
+                <div class="info-item">
+                    <h3><i class="fas fa-mask"></i> Alias</h3>
+                    <p>BD (BANG DAVID)</p>
+                </div>
+                <div class="info-item">
+                    <h3><i class="fas fa-birthday-cake"></i> Usia</h3>
+                    <p>34 Tahun</p>
+                </div>
+                <div class="info-item">
+                    <h3><i class="fas fa-ruler-vertical"></i> Tinggi</h3>
+                    <p>166 cm</p>
+                </div>
+                <div class="info-item">
+                    <h3><i class="fas fa-weight"></i> Berat</h3>
+                    <p>85 kg</p>
+                </div>
+                <div class="info-item">
+                    <h3><i class="fas fa-fingerprint"></i> Ciri Khusus</h3>
+                    <p>HITAM MUKA SEDIKIT KAYA KONTOL</p>
+                </div>
+                <div class="info-item">
+                    <h3><i class="fas fa-exclamation-circle"></i> Kejahatan</h3>
+                    <p>PEMERKOSAAN ANAK DI BAWAH UMUR (PEDOPIL)</p>
+                </div>
+                <div class="info-item">
+                    <h3><i class="fas fa-map-marker-alt"></i> Terakhir Terlihat</h3>
+                    <p>POIPET, 19 SEPTEMBER 2024</p>
+                </div>
+            </div>
+            <p class="warning-text">
+                PERHATIAN! DAVID PARLINDUNGAN dianggap sangat berbahaya dan mungkin bersenjata. Jangan mencoba mendekati. Segera hubungi pihak berwajib jika melihatnya.
+            </p>
+            <div class="action-buttons">
+                <button class="action-button report-button">Laporkan Keberadaan</button>
+                <button class="action-button more-info-button">Informasi Lebih Lanjut</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
